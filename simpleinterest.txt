@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    double p,t,r,si;
+    scanf("%lf",&p);
+    scanf("%lf",&r);
+    scanf("%lf",&t);
+    si=(p*t*r)/100;
+    printf("%.2lf",si);
+    return(0);
+    
+}
